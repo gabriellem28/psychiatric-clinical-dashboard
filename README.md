@@ -62,7 +62,42 @@ Key features:
 
 ## Dashboard Screens
 
-Coming soon...
+
+### Patient Overview Dashboard
+
+![Dashboard](assets/SCREEN.png)
+
+The dashboard provides a centralized view of psychiatric patient information including demographics, diagnoses, medications, treatments, hospitalization history, and emergency visits.
+
+---
+## System Architecture
+
+![Architecture](assets/image%20(2).png)
+
+Database → Backend → Frontend → User
+
+---
+## Workflow
+
+![Workflow](architecture/workFlow.png)
+
+The workflow begins with secure login, patient search, patient overview, timeline navigation, and access to detailed clinical summaries.
+
+---
+
+## Implementation Examples
+
+### Legal Status Calculation Logic
+
+![Code Example](snippets/code.png)
+
+Example of backend logic used for hospitalization statistics and legal status calculations.
+
+### Timeline Component Rendering
+
+![Timeline Code](snippets/code1.png)
+
+Example of frontend timeline rendering logic displaying hospitalizations and ER visits chronologically.
 
 ---
 
